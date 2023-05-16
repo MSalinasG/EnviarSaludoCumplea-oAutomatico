@@ -1,0 +1,6 @@
+pip install pywhatkit
+
+#Para crear el ejecutable, esto se hace dentro del proyecto
+pip install pyinstaller
+
+pyinstaller --onefile -w envio.py
